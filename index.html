@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>YOUSSEF &amp; SOHAILA | Our Wedding</title>
+<meta name="description" content="Join us as we celebrate the wedding of Youssef and Sohaila.">
+
+<!-- Google Fonts: Cormorant Garamond (display serif) + Jost (clean body sans) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ============ NAVIGATION ============ -->
+<header class="site-nav" id="siteNav">
+  <div class="nav-inner">
+    <a href="#hero" class="nav-mark">Y &amp; S</a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#hero" class="nav-link">Home</a>
+      <a href="#details" class="nav-link">Details</a>
+      <a href="#venue" class="nav-link">Location</a>
+      <a href="#gallery" class="nav-link">Gallery</a>
+      <a href="#Contact" class="nav-link"></a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="hero">
+  <div class="hero-decor hero-decor--left" aria-hidden="true"></div>
+  <div class="hero-decor hero-decor--right" aria-hidden="true"></div>
+  <div class="hero-particles" id="heroParticles" aria-hidden="true"></div>
+
+  <div class="hero-content">
+    <p class="hero-eyebrow reveal-item" data-reveal="fade">The wedding of</p>
+    <h1 class="hero-names">
+      <span class="reveal-item" data-reveal="fade-up" data-delay="120">Youssef</span>
+      <span class="hero-amp reveal-item" data-reveal="scale" data-delay="260">&amp;</span>
+      <span class="reveal-item" data-reveal="fade-up" data-delay="360">Sohaila</span>
+    </h1>
+    <p class="hero-line reveal-item" data-reveal="fade" data-delay="520">
+      Together with our families, we invite you to celebrate our special day
+    </p>
+    <div class="hero-date reveal-item" data-reveal="fade" data-delay="640">
+      <span class="hero-date-label">Wedding Day</span>
+      <span class="hero-date-value" id="heroDateValue">—</span>
+    </div>
+    <a href="#countdown" class="hero-btn reveal-item" data-reveal="fade-up" data-delay="760">
+      <span>Explore Our Wedding</span>
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M8 2v11M8 13l-4.5-4.5M8 13l4.5-4.5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>
+  </div>
+
+  <div class="hero-scroll-cue" aria-hidden="true"><span></span></div>
+</section>
+
+<!-- ============ COUNTDOWN ============ -->
+<section class="countdown-section" id="countdown">
+  <p class="section-kicker reveal-item" data-reveal="fade">Counting down to</p>
+  <h2 class="section-heading reveal-item" data-reveal="fade-up">Forever Begins In</h2>
+
+  <div class="countdown-grid" id="countdownGrid" role="timer" aria-live="off">
+    <div class="countdown-unit reveal-item" data-reveal="fade-up" data-delay="80">
+      <span class="countdown-number" id="cd-days">00</span>
+      <span class="countdown-label">Days</span>
+    </div>
+    <div class="countdown-unit reveal-item" data-reveal="fade-up" data-delay="160">
+      <span class="countdown-number" id="cd-hours">00</span>
+      <span class="countdown-label">Hours</span>
+    </div>
+    <div class="countdown-unit reveal-item" data-reveal="fade-up" data-delay="240">
+      <span class="countdown-number" id="cd-minutes">00</span>
+      <span class="countdown-label">Minutes</span>
+    </div>
+    <div class="countdown-unit reveal-item" data-reveal="fade-up" data-delay="320">
+      <span class="countdown-number" id="cd-seconds">00</span>
+      <span class="countdown-label">Seconds</span>
+    </div>
+  </div>
+
+  <p class="countdown-done" id="countdownDone" hidden>Today is our special day ❤️</p>
+</section>
+
+
+<!-- ============ LOVE QUOTE ============ -->
+<section class="quote-section reveal-item" data-reveal="fade">
+  <p class="quote-mark" aria-hidden="true">&#8220;</p>
+  <p class="quote-text">Two hearts, one beautiful journey, and a lifetime to go.</p>
+</section>
+
+<!-- ============ WEDDING DETAILS ============ -->
+<section class="details-section" id="details">
+  <p class="section-kicker reveal-item" data-reveal="fade">How the day unfolds</p>
+  <h2 class="section-heading reveal-item" data-reveal="fade-up">Wedding Details</h2>
+
+  <div class="details-grid">
+    <div class="detail-card reveal-item" data-reveal="fade-up" data-delay="80">
+      <div class="detail-icon" aria-hidden="true">
+        <svg width="30" height="30" viewBox="0 0 24 24" fill="none"><path d="M12 21c-4.5-2.8-8-6-8-9.8A4.6 4.6 0 0 1 12 7.5 4.6 4.6 0 0 1 20 11.2c0 3.8-3.5 7-8 9.8Z" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/></svg>
+      </div>
+      <span class="detail-time">5:00 PM</span>
+      <h3>The Photo Shoot and Summary</h3>
+    </div>
+
+    <div class="detail-card reveal-item" data-reveal="fade-up" data-delay="160">
+      <div class="detail-icon" aria-hidden="true">
+        <svg width="30" height="30" viewBox="0 0 24 24" fill="none"><path d="M4 20V9l8-5 8 5v11M9 20v-6h6v6" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/></svg>
+      </div>
+      <span class="detail-time">7:00 PM</span>
+      <h3>Marriage Contract Signing</h3>
+    </div>
+
+    <div class="detail-card reveal-item" data-reveal="fade-up" data-delay="240">
+      <div class="detail-icon" aria-hidden="true">
+        <svg width="30" height="30" viewBox="0 0 24 24" fill="none"><path d="M5 11h14M5 11a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2M5 11v7a1 1 0 0 0 1 1h1v-3h10v3h1a1 1 0 0 0 1-1v-7M9 9V6a3 3 0 1 1 6 0v3" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/></svg>
+      </div>
+      <span class="detail-time">8:00 PM</span>
+      <h3>the first celebration</h3>
+    </div>
+
+    <div class="detail-card reveal-item" data-reveal="fade-up" data-delay="320">
+      <div class="detail-icon" aria-hidden="true">
+        <svg width="30" height="30" viewBox="0 0 24 24" fill="none"><path d="M12 2v4M12 18v4M4.9 4.9l2.8 2.8M16.3 16.3l2.8 2.8M2 12h4M18 12h4M4.9 19.1l2.8-2.8M16.3 7.7l2.8-2.8" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>
+      </div>
+      <span class="detail-time">10:00 PM</span>
+      <h3>the Second celebration</h3>
+    </div>
+  </div>
+</section>
+
+<!-- ============ VENUE ============ -->
+<section class="venue-section" id="venue">
+  <div class="venue-info reveal-item" data-reveal="fade-right">
+    <p class="section-kicker">Where to find us</p>
+    <h2 class="section-heading">Wedding Loction</h2>
+    <h3 class="venue-name" id="venueName">Hall Name</h3>
+    <p class="venue-address" id="venueAddress">Hall Address, City</p>
+
+    <dl class="venue-meta">
+      <div>
+        <dt>Date</dt>
+        <dd id="venueDate">—</dd>
+      </div>
+      <div>
+        <dt>Time</dt>
+        <dd id="venueTime">—</dd>
+      </div>
+    </dl>
+
+
+
+    <a href="#" id="venueMapLink" class="hero-btn hero-btn--dark" target="_blank" rel="noopener">
+      <span>Open Location</span>
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M6 3H3v10h10v-3M9 2h5v5M14 2 7 9" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>
+  </div>
+
+<div class="venue-map reveal-item" data-reveal="fade-left">
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3418.0370708433447!2d30.104698227533316!3d31.217426842187667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f5d90036a19707%3A0xa815b783762e855c!2z2YLYp9i52Kkg2KPZgdix2KfYrSDYs9mK2LPZitmE2YrYpw!5e0!3m2!1sar!2seg!4v1790532808790!5m2!1sar!2seg"
+    width="100%"
+    height="450"
+    style="border:0;"
+    allowfullscreen=""
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+</div>
+</section>
+
+<!-- ============ SCHEDULE ============ -->
+<section class="schedule-section" id="schedule">
+  <p class="section-kicker reveal-item" data-reveal="fade">The order of the evening</p>
+  <h2 class="section-heading reveal-item" data-reveal="fade-up">Wedding Schedule</h2>
+
+  <ol class="schedule-list">
+    <li class="schedule-item reveal-item" data-reveal="fade-up" data-delay="160">
+      <span class="schedule-time">05:00 PM</span>
+      <span class="schedule-divider" aria-hidden="true"></span>
+      <span class="schedule-label">Photography</span>
+    </li>
+    <li class="schedule-item reveal-item" data-reveal="fade-up" data-delay="80">
+      <span class="schedule-time">07:00 PM</span>
+      <span class="schedule-divider" aria-hidden="true"></span>
+      <span class="schedule-label">Marriage Contract</span>
+    </li>
+    <li class="schedule-item reveal-item" data-reveal="fade-up" data-delay="240">
+      <span class="schedule-time">08:00 PM</span>
+      <span class="schedule-divider" aria-hidden="true"></span>
+      <span class="schedule-label">The First Celebration</span>
+    </li>
+    <li class="schedule-item reveal-item" data-reveal="fade-up" data-delay="320">
+      <span class="schedule-time">09:00 PM</span>
+      <span class="schedule-divider" aria-hidden="true"></span>
+      <span class="schedule-label">The Second Celebration</span>
+    </li>
+  </ol>
+</section>
+
+<!-- ============ GALLERY ============ -->
+<section class="gallery-section" id="gallery">
+  <p class="section-kicker reveal-item" data-reveal="fade">Moments we treasure</p>
+  <h2 class="section-heading reveal-item" data-reveal="fade-up">Photo Gallery</h2>
+
+  <div class="gallery-grid" id="galleryGrid">
+    <!-- Populated by script.js from weddingConfig.gallery -->
+  </div>
+</section>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer" hidden>
+  <button class="lightbox-close" id="lightboxClose" aria-label="Close">&times;</button>
+  <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Previous photo">&#10094;</button>
+  <img class="lightbox-img" id="lightboxImg" src="" alt="">
+  <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Next photo">&#10095;</button>
+</div>
+
+
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  
+  <p class="footer-mark">Youssef &amp; Sohaila</p>
+  <p class="footer-note">We can't wait to celebrate with you</p>
+</footer>
+
+<!-- ============ FLOATING MUSIC BUTTON ============ -->
+<button class="music-btn" id="musicBtn" aria-label="Play wedding music" aria-pressed="false">
+  <svg class="music-icon music-icon--play" width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M9 9v6a2 2 0 0 0 2.9 1.8l5-3a2 2 0 0 0 0-3.6l-5-3A2 2 0 0 0 9 9Z" fill="currentColor"/></svg>
+  <svg class="music-icon music-icon--pause" width="20" height="20" viewBox="0 0 24 24" fill="none" hidden><path d="M8 6h3v12H8zM13 6h3v12h-3z" fill="currentColor"/></svg>
+</button>
+
+<!-- Put your song file at audio/wedding-song.mp3 -->
+<audio id="weddingMusic" autoplay loop preload="auto">
+  <source src="audio/wedding-song.mp3" type="audio/mpeg">
+</audio>
+
+<script src="js/script.js"></script>
+</body>
+</html>
